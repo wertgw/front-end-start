@@ -55,3 +55,13 @@ for(var i = 1; i <= 4; i++) {
   }
 }
 wrap.innerHTML = str;
+
+var blocks = document.querySelectorAll('.wrap > div');
+
+function select(event){
+  var block = event.currentTarget;
+  blcok.style.backgroundColor = 'yellow';
+}
+for(var i = 0; i< 16; i++){
+  blocks[i].addEventListener('click', select);
+}
