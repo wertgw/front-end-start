@@ -15,7 +15,7 @@ var todayPhoto = [
   var pageCount = document.getElementById('pageCount');
   
   var page = 1;
-  var startIndex = 0;
+  var startIndex = 0; 
   var endIndex = 3;
 
   function showImageList(imageList, start, end){
